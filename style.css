@@ -1,0 +1,81 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comprasCarrito{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.button{
+    background-color: aqua;
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+    border: solid 2px black;
+    box-shadow: 6px 5px 10px black;
+    border-radius: 20px;
+    margin: 1rem;
+
+    background-color: white;
+}
+
+
+img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 5px 0px;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.btn-2{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.btn-2:hover , .btn:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.contenedorBotones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
